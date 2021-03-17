@@ -1,11 +1,13 @@
-import './template/style/App.css';
+import React from "react";
+import Header from "./layout/Header";
 import './template/style/index.css';
 
 function App() {
   return(
-    <div className="flex flex-wrap bg-gray-800 text-white">
-        <h1 className="p-5">2Hello World</h1>
-    </div>
+      <Header />
+      // <section className="flex flex-wrap">
+      //   <img src="./template/image/mata.jpg" alt="LOgos"/>
+      // </section>
   );
 }
 
