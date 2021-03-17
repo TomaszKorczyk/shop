@@ -1,1 +1,1 @@
-To jest próbny projekt :happy
+To jest próbny projekt 😃
