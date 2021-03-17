@@ -1,21 +1,10 @@
 import './App.css';
+import './index.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello World ??
-        </a>
-      </header>
+  return(
+    <div className="flex flex-wrap bg-gray-800">
+        <h1 className="p-5">2Hello World</h1>
     </div>
   );
 }
