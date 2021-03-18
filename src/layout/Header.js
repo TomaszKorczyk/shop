@@ -1,30 +1,47 @@
 import React from 'react';
+import useDarkMode from '../hook/useDarkMode';
 import puzzle from "../template/icons/puzzle.svg";
+import DarkMode from './DarkMode';
 
 export default function Header() {
+    useDarkMode();
     return (
-        <nav className="bg-green-200 flex dark:bg-gray-900 justify-between">
-            <ul className="flex justify-between w-full">
+        <nav className="bg-yellow-500 flex dark:bg-black justify-between min-h-full min-w-full overflow-hidden transition duration-500">
+            <ul className="flex justify-between w-4/12">
                 <li 
-                    className="bg-red-700 flex m-1 dark:bg-yellow-400"
+                    className="flex items-center mx-2"
                 >
                     <a href="/">
-                        <img 
-                            src={puzzle} 
-                            width="100"
+                        <img
+                            className="bg-green-700 dark:bg-yellow-300 min-h-full min-w-max opacity-80 hover:opacity-100 rounded m-1"
+                            src={puzzle}
                             alt="logo" 
                         />
                     </a>
                 </li>
             </ul>
-            <ul className="flex justify-around m-2 items-center w-full">        
+            <ul>
+                
+            </ul>
+            <ul className="flex flex-wrap justify-end items-center w-5/12 font-bold">
                 <li>
-                    <p className="text-yellow-400 cursor-pointer hover:text-yellow-600 h-full mx-2">Edit</p>
+                    <p 
+                        className="text-gray-800 hover:text-green-700 dark:text-white dark:hover:text-yellow-300 cursor-pointer mx-2"
+                    >
+                        Edit
+                    </p>
                 </li>
                 <li>
-                    <p className="text-green-500 mx-2 align-middle items-center">Home</p>
+                    <p 
+                        className="text-gray-800 hover:text-green-700 dark:text-white dark:hover:text-yellow-300 cursor-pointer mx-2"
+                    >
+                        Home
+                    </p>
+                </li>
+                <li className="m-2">
+                    <DarkMode />
                 </li>
             </ul>    
         </nav>
-    )
+    );
 }
