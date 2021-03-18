@@ -18,11 +18,11 @@
         "web-vitals": "^1.1.1"
     },
     "scripts": {
-        "start": "craco start",
-        "build": "craco build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
-        "test": "craco test",
+        "test": "react-scripts test",
         "eject": "react-scripts eject",
         "build:css": "postcss src/template/style/tailwind.css -o src/template/style/index.css",
         "prod:build": "NODE_ENV=production npm run build:css && npm run build"
