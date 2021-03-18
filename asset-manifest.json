@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.e773511c.chunk.css",
+    "main.css": "/shop/static/css/main.c92aed90.chunk.css",
     "main.js": "/shop/static/js/main.550e3756.chunk.js",
     "main.js.map": "/shop/static/js/main.550e3756.chunk.js.map",
     "runtime-main.js": "/shop/static/js/runtime-main.c6fead29.js",
@@ -8,14 +8,14 @@
     "static/js/2.9050466d.chunk.js": "/shop/static/js/2.9050466d.chunk.js",
     "static/js/2.9050466d.chunk.js.map": "/shop/static/js/2.9050466d.chunk.js.map",
     "index.html": "/shop/index.html",
-    "static/css/main.e773511c.chunk.css.map": "/shop/static/css/main.e773511c.chunk.css.map",
+    "static/css/main.c92aed90.chunk.css.map": "/shop/static/css/main.c92aed90.chunk.css.map",
     "static/js/2.9050466d.chunk.js.LICENSE.txt": "/shop/static/js/2.9050466d.chunk.js.LICENSE.txt",
     "static/media/puzzle.a8e67b30.svg": "/shop/static/media/puzzle.a8e67b30.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c6fead29.js",
     "static/js/2.9050466d.chunk.js",
-    "static/css/main.e773511c.chunk.css",
+    "static/css/main.c92aed90.chunk.css",
     "static/js/main.550e3756.chunk.js"
   ]
 }
