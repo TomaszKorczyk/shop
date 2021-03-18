@@ -20,9 +20,6 @@ export default function Header() {
                     </a>
                 </li>
             </ul>
-            <ul>
-                
-            </ul>
             <ul className="flex flex-wrap justify-end items-center w-5/12 font-bold">
                 <li>
                     <p 
